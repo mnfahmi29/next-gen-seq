@@ -1,4 +1,3 @@
-```md
 # 🧬 NGS Ubuntu Python Pipeline
 
 Reproducible, modular Python-based workflows for **Next-Generation Sequencing (NGS)** analysis on **Ubuntu**, covering quality control, alignment, variant processing, annotation, and downstream biological interpretation (e.g. pathway analysis).
@@ -24,44 +23,37 @@ This repo prioritizes:
 
 ```
 
-next-gen-seq/
-│
-├── README.md
-├── environment/
-│   ├── environment.yml          # Conda environment
-│   └── requirements.txt         # Pip fallback
-│
-├── data/
-│   ├── raw/                     # FASTQ / BAM / VCF (gitignored)
-│   ├── reference/               # Genome references (paths only)
-│   └── testdata/                # Tiny example files (optional)
-│
-├── src/
-│   ├── 01_qc/                   # FASTQ/BAM quality control
-│   ├── 02_alignment/            # BWA / STAR alignment
-│   ├── 03_postprocess/          # Sorting, duplication, metrics
-│   ├── 04_variant_calling/      # Variant calling
-│   ├── 05_annotation/           # VEP / ANNOVAR
-│   └── 06_pathway_analysis/     # Gene set & enrichment analysis
-│
-├── configs/
-│   └── config.yaml              # Central configuration
-│
-├── results/
-│   ├── qc/
-│   ├── alignment/
-│   ├── variants/
-│   └── reports/
-│
-├── scripts/
-│   └── run_pipeline.sh          # Pipeline runner
-│
-├── notebooks/
-│   └── exploratory.ipynb        # Optional exploration
-│
-└── docs/
-├── pipeline_diagram.png
-└── method_notes.md
+next-gen-seq/  
+│  
+├── README.md  
+├── environment/  
+│   ├── environment.yml          # Conda environment  
+│   └── requirements.txt         # Pip fallback  
+│  
+├── data/  
+│   ├── raw/                     # FASTQ / BAM / VCF (gitignored)  
+│   ├── reference/               # Genome references (paths only)  
+│   └── testdata/                # Tiny example files (optional)  
+│  
+├── src/  
+│   ├── 01_qc/                   # FASTQ/BAM quality control  
+│   ├── 02_alignment/            # BWA / STAR alignment  
+│   ├── 03_postprocess/          # Sorting, duplication, metrics  
+│   ├── 04_variant_calling/      # Variant calling  
+│   ├── 05_annotation/           # VEP / ANNOVAR  
+│   └── 06_pathway_analysis/     # Gene set & enrichment analysis  
+│  
+├── configs/  
+│   └── config.yaml              # Central configuration  
+│  
+├── results/  
+│   ├── qc/  
+│   ├── alignment/  
+│   ├── variants/  
+│   └── reports/  
+│  
+├── scripts/  
+    └── run_pipeline.sh          # Pipeline runner  
 
 ````
 
@@ -208,8 +200,6 @@ For questions or collaboration ideas, please open an issue.
 
 **Disclaimer:**
 This software is provided for research purposes only and is **not validated for clinical decision-making**.
-
-```
 
 ---
 
