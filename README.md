@@ -1,3 +1,4 @@
+**⚠️⚠️Desclaimer: due to my new step in Github, I will post my code as soon as possible⚠️⚠️**  
 # 🧬 NGS Ubuntu Python Pipeline
 
 Reproducible, modular Python-based workflows for **Next-Generation Sequencing (NGS)** analysis on **Ubuntu**, covering quality control, alignment, variant processing, annotation, and downstream biological interpretation (e.g. pathway analysis).
