@@ -199,6 +199,12 @@ For questions or collaboration ideas, please open an issue.
 
 ---
 
+## 👤 Author
+
+**Muhammad Nur Fahmi, MD**
+
+---
+
 **Disclaimer:**
 This software is provided for research purposes only and is **not validated for clinical decision-making**.
 
